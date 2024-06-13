@@ -1,6 +1,7 @@
 import "./NavBar.css";
 import React, { useState } from "react";
 import { MenuItems } from "./MenuItems";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
@@ -22,9 +23,9 @@ const Navbar = () => {
         {MenuItems.map((item, index) => {
           return(
             <li key={index}>
-            <a className={item.cName} href={item.url}>
+            <Link className={item.cName} to={item.url}>
               <i className={item.icon}></i>{item.title}
-            </a>
+            </Link>
           </li>
           );
         })}
