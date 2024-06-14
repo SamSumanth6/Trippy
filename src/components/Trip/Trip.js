@@ -1,9 +1,10 @@
 import React from "react";
 import "./Trip.css";
 import TripData from "./TripData";
-import Trip1 from "../../assests/5.jpg";
-import Trip2 from "../../assests/8.jpg";
-import Trip3 from "../../assests/6.jpg";
+import Lakshadeep from "../../assests/lakshadeep.jpg";
+import Bali from "../../assests/Bali.jpg";
+import India from "../../assests/India.jpg";
+
 
 const Trip = () => {
   return (
@@ -12,19 +13,20 @@ const Trip = () => {
       <p>You can discover unique destinations using Google Maps.</p>
       <div className="tripcard">
         <TripData
-          image={Trip1}
-          heading="Trip to Indonesia"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
-        />
-        <TripData
-          image={Trip2}
+          image={India}
           heading="Trip to India"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+          text="India, a tapestry of cultures and landscapes, invites exploration:
+          Discover the Taj Mahal in Agra, Rajasthan's forts, and Delhi's historic landmarks. Experience Kerala's tranquil backwaters and Goa's vibrant beaches. Explore the Himalayas' majestic peaks and the spiritual banks of the Ganges. India captivates with its diverse experiences and timeless charm."
         />
         <TripData
-          image={Trip3}
-          heading="Trip to Lakshadeep"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+          image={Bali}
+          heading="Trip to Bali"
+          text="Bali, Indonesia’s gem, captivates with its stunning beaches like Kuta and Seminyak, perfect for surfing and sunbathing. Explore ancient temples such as Uluwatu and Tanah Lot, and indulge in Balinese culture through traditional dance and rituals. With vibrant nightlife and serene spa retreats, Bali offers a perfect blend of adventure and relaxation."
+        />
+        <TripData
+          image={Lakshadeep}
+          heading="Trip to Lakshadweep"
+          text="Lakshadweep, a union territory of India in the Arabian Sea, consists of 36 islands known for their coral reefs and turquoise lagoons. Accessible by boat or plane, popular islands include Agatti and Kavaratti. Visitors enjoy water sports, snorkeling, and diving amidst pristine marine life, making it an ideal destination for relaxation and exploration."
         />
       </div>
     </div>
