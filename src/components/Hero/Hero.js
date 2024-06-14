@@ -1,17 +1,17 @@
 import React from 'react'
 import './Hero.css'
-import HeroImg from '../../assests/12.jpg'
 
-const Hero = () => {
+
+const Hero = (props) => {
   return (
-    <div className='hero'>
-        <img src={HeroImg} alt="HeroImg" />
+    <div className={props.cName}>
+        <img src={props.heroImg} alt="HeroImg" />
 
         <div className='hero-text'>
-            <h1>Your Journey Your Story</h1>
-            <p>Choose Your Favourite Destination</p>
-            <a href="/" className='hero-btn'>
-                Travel Plan
+            <h1>{props.title}</h1>
+            <p>{props.text}</p>
+            <a href={props.url} className={props.btnCname}>
+                {props.buttonText}
             </a>
         </div>
     </div>
