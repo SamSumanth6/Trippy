@@ -3,6 +3,8 @@ import Navbar from '../components/NavBar/Navbar'
 import Hero from '../components/Hero/Hero'
 import HeroImg from '../assests/12.jpg'
 import Destination from '../components/Destination/Destination'
+import Trip from '../components/Trip/Trip'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
             url="/"
         />
         <Destination />
+        <Trip />
+        <Footer/>
     </div>
   )
 }
