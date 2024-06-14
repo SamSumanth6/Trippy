@@ -21,7 +21,7 @@ const Destination = () => {
       <DestinationData
         cName="first-des-reverse"
         heading="Kerala, India"
-        text="One of the most iconic destinations in India, Kerala is often referred to as 'God's Own Country' for its lush greenery, serene backwaters, and beautiful coastlines. This southern paradise offers a tranquil escape with its picturesque landscapes, from the rolling hills of Munnar to the tranquil backwaters of Alleppey. If you fancy exploring further, a houseboat cruise on the backwaters provides a unique perspective of Kerala's beauty, gliding past palm-fringed canals and traditional villages. For adventure enthusiasts, the Western Ghats offer excellent opportunities for trekking and wildlife spotting. The region's rich cultural heritage and warm hospitality enhance its allure. The tropical climate is generally pleasant, so plan for comfortable clothing and then unwind with some delicious Kerala cuisine like Appam with Stew or a refreshing glass of Toddy before heading back home!"
+        text="Kerala, known as 'God's Own Country,' enchants with lush greenery, serene backwaters, and captivating coastlines. From the misty hills of Munnar to tranquil backwaters of Alleppey, it offers diverse experiences. Glide through palm-fringed canals on a houseboat or trek the Western Ghats for wildlife. Rich cultural heritage, vibrant festivals, and delightful cuisine like Appam with Stew add to its charm. Enjoy Kerala's tropical climate year-round for a rejuvenating getaway."
         img1={Kerala1}
         img2={Kerala2}
       />
