@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/NavBar/Navbar";
 import Hero from "../components/Hero/Hero";
 import ServiceImg from "../assests/2.jpg";
+import Footer from "../components/Footer/Footer";
+import Trip from '../components/Trip/Trip'
 
 const Service = () => {
   return (
@@ -15,6 +17,8 @@ const Service = () => {
         btnCname="hide"
         url="/"
       />
+      <Trip />
+      <Footer/>
     </div>
   );
 };
