@@ -6,10 +6,10 @@ import Bali from "../../assests/Bali.jpg";
 import India from "../../assests/India.jpg";
 
 
-const Trip = () => {
+const Trip = ({title}) => {
   return (
     <div className="trip">
-      <h1>Recent Trip</h1>
+      <h1>{title}</h1>
       <p>You can discover unique destinations using Google Maps.</p>
       <div className="tripcard">
         <TripData

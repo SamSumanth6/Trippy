@@ -20,7 +20,7 @@ const Home = () => {
             url="/"
         />
         <Destination />
-        <Trip />
+        <Trip title="Recent Trips"/>
         <Footer/>
     </div>
   )

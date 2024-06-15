@@ -17,7 +17,7 @@ const Service = () => {
         btnCname="hide"
         url="/"
       />
-      <Trip />
+      <Trip title="Explore Our Trips"/>
       <Footer/>
     </div>
   );
