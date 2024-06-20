@@ -8,8 +8,12 @@ import Service from "./routes/Service";
 import India from "./routes/India";  // Import India component
 import Bali from "./routes/Bali"
 import Lakshadweep from "./routes/Lakshadweep";
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []); 
   return (
     <div className="App">
       <Routes>

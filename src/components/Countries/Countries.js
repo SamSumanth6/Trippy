@@ -3,8 +3,12 @@ import "./Countries.css";
 import Hero from '../Hero/Hero';
 import Navbar from '../NavBar/Navbar';
 import Footer from '../Footer/Footer';
+import { useEffect } from 'react';
 
 const Countries = ({ places=[], destination, image }) => {  // Default to an empty array
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when component mounts or updates
+  }, []); // Empty dependency array ensures this effect runs only once
   return (
     <div className='country-container'>
       <Navbar/>
